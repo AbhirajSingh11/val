@@ -14,20 +14,20 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
-      ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
-      "No :(",
+      "Please babyy maan jaoo",
+      "Tumko Xing Xing ki kasam!",
+      "Maan jaa nahi to bohot maarungaa",
+      "Choclate khilaungaa",
+      "Taubaa Taubaa maan hi nahi rahii",
+      "Babyy yarrr pleasee yarr",
+      "Kitna bhavv khaogiii",
+      "Theek hai main chala chulu bhar paani me ",
+      "Bhoot banke bol raha hu please haan boldoo",
+      "Muahh kisses dungaa",
+      "Bohoot saari kisses!",
+      "Aurr bhi saaari kissess",
+      "Lastt baarr pooch raha huu, fir no choice",
+      "No!!",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -37,14 +37,14 @@ export default function Page() {
     <div className="-mt-16 flex h-screen flex-col items-center justify-center">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <img src="https://media.tenor.com/nIZyihQNicAAAAAi/cosytales-cute.gif" />
+          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you babyy!! ;))</div>
         </>
       ) : (
         <>
           <img
             className="h-[200px]"
-            src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://media1.tenor.com/m/eGPJXPSOB4oAAAAd/xing-xingxing.gif"
           />
           <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
           <div className="flex items-center">
