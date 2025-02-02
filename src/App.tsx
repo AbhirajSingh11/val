@@ -38,7 +38,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/nIZyihQNicAAAAAi/cosytales-cute.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you babyy!! ;))</div>
+          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you babyy!!</div>
         </>
       ) : (
         <>
